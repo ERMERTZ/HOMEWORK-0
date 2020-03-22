@@ -1,1 +1,1 @@
-Print("first")
+print("first")
