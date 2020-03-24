@@ -8,7 +8,7 @@ race<-pdf_data("jensen2020.pdf")
 class(race)
 #pdf_toc("jensen2020.pdf")
 #pdf_info("jensen2020.pdf")
-
+#this is a test for updating git
 page1<-race[1] %>% readr::read_lines()
 page2<-race[2] %>% readr::read_lines() 
 edit(page1)
